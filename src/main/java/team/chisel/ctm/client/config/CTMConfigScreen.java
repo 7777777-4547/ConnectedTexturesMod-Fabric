@@ -55,7 +55,6 @@ public class CTMConfigScreen extends Screen {
 		super.render(matrices, mouseX, mouseY, delta);
 	}
 
-	@Override
 	public void onClose() {
 		client.setScreen(parent);
 	}
